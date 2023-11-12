@@ -1,0 +1,29 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "/img/product-chain-1.png",
+      "title": "Front-End",
+      "description": "a"
+    },
+    {
+      "id": "2",
+      "src": "/img/tag-1.png",
+      "title": "Back-End",
+      "description": ""
+    },
+    {
+      "id": "3",
+      "src": "/img/feather-pen-2.png",
+      "title": "UI & UX Design",
+      "description": ""
+    },
+    {
+      "id": "4",
+      "src": "/img/feather-pen-1.png",
+      "title": "Webflow Development",
+      "description": ""
+    }
+  ]
+}
+
