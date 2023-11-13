@@ -1,7 +1,10 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Ensure you have the following software installed on your machine:
 
+- [Node.js](https://nodejs.org/) - JavaScript runtime
+- [npm](https://www.npmjs.com/) (comes with Node.js) or [Yarn](https://yarnpkg.com/) - Package manager
 ## Available Scripts
 
 In the project directory, you can run:
