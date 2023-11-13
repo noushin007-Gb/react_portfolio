@@ -1,10 +1,23 @@
+import AboutMe from "../AboutMe";
+import ContactMe from "../ContactMe";
+import Footer from "../Footer"; 
 import HeroSection from "../HeroSection";
+import MyPortfolio from "../MyPortfolio";
 import MySkills from "../MySkills";
-export default function Home(){
-  return(
+import Testimonial from "../Testimonials";
+
+export default function Home() {
+  return (
+
     <>
-    <HeroSection/>
-    <MySkills />
+  
+      <HeroSection />
+      <MySkills />
+      <AboutMe />
+      <MyPortfolio />
+      <Testimonial />
+      <ContactMe />
+      <Footer />
     </>
-  )
+  );
 }

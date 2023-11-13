@@ -24,6 +24,52 @@
       "title": "Webflow Development",
       "description": ""
     }
-  ]
-}
-
+  ],
+  "portfolio": [
+    {
+      "id": "1",
+      "src": "/img/placeholder-image.png",
+      "title": "Ahuse",
+      "description": "a",
+      "link": "View In Github"
+    },
+    {
+      "id": "2",
+      "src": "/img/placeholder-image-1.png",
+      "title": "App Dashboard",
+      "description": ""
+    },
+    {
+      "id": "3",
+      "src": "/img/placeholder-image-2.png",
+     "title": "Easy Rentn",
+      "description": ""
+    }
+  ],
+      "testimonial": [
+        {
+          "id": "1",
+          "count": "5",
+          "src": "/img/",
+      "description": "Customer feedback 1",
+          "author_name": "Random Name",
+          "author_designation": "Random Company"
+        },
+        {
+          "id": "2",
+          "count": "5",
+          "src": "/img/",
+          "description": "Customer feedback 2",
+          "author_name": "Random Name",
+          "author_designation": "Random Company"
+        },
+        {
+          "id": "3",
+          "count": "5",
+          "src": "/img/",
+          "description": "Customer feedback 3",
+          "author_name": "Random Name",
+          "author_designation": "Random Company"
+        }
+      ]
+    }

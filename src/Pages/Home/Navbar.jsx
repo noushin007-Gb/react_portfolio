@@ -39,10 +39,10 @@ function Navbar() {
     <nav className={`navbar ${navActive ? "active" :
       ""}`}>
       <div>
-        <img src="/img/logo.svg" alt="Logoipsum" />
+      <img src="/img/N_logo.png" alt="noushin" width="77" height="77" />
+
       </div>
       <a
-  href="#"
   className={`nav__hamburger ${navActive ? "active" : ""}`}
   onClick={toggleNav}
 >
@@ -106,7 +106,7 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="Testimonials"
+              to= "testimonial"
               className="navbar--content"
             >
               Testimonials
