@@ -22,25 +22,20 @@ function Navbar() {
     window.addEventListener("resize", handleResize);
 
     return () => {
-      window.removeEventListener("resize",
-        handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
-
 
   useEffect(() => {
     if (window.innerWidth <= 1200) {
       closeMenu();
     }
-
   }, []);
 
   return (
-    <nav className={`navbar ${navActive ? "active" :
-      ""}`}>
+    <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
         <img src="/img/N_logo.png" alt="noushin" width="77" height="77" />
-
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -55,59 +50,60 @@ function Navbar() {
         <ul>
           <li>
             <Link
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
+              to="heroSection"
               smooth={true}
               offset={-70}
               duration={500}
-              to="heroSection"
+              spy={true}
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
               className="navbar--content"
+              href="#heroSection"
             >
               Home
             </Link>
           </li>
           <li>
             <Link
-
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
+              to="MyPortfolio"
               smooth={true}
               offset={-70}
               duration={500}
-              to="MyPortfolio"
+              spy={true}
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
               className="navbar--content"
+              href="#MyPortfolio"
             >
               Portfolio
             </Link>
           </li>
           <li>
             <Link
-
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
+              to="AboutMe"
               smooth={true}
               offset={-70}
               duration={500}
-              to="AboutMe"
+              spy={true}
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
               className="navbar--content"
+              href="#AboutMe"
             >
               About Me
             </Link>
           </li>
           <li>
             <Link
-
-              onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
+              to="testimonial"
               smooth={true}
               offset={-70}
               duration={500}
-              to="testimonial"
+              spy={true}
+              onClick={closeMenu}
+              activeClass="navbar--active-content"
               className="navbar--content"
+              href="#testimonial"
             >
               Testimonials
             </Link>
@@ -115,24 +111,20 @@ function Navbar() {
         </ul>
       </div>
       <Link
-
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
+        to="Contact"
         smooth={true}
         offset={-70}
         duration={500}
-        to="Contact"
+        spy={true}
+        onClick={closeMenu}
+        activeClass="navbar--active-content"
         className="btn btn-outline-primary"
+        href="#Contact"
       >
         Contact Me
       </Link>
     </nav>
-
-
-
   );
 }
 
 export default Navbar;
-
