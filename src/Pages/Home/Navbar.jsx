@@ -39,17 +39,17 @@ function Navbar() {
     <nav className={`navbar ${navActive ? "active" :
       ""}`}>
       <div>
-      <img src="/img/N_logo.png" alt="noushin" width="77" height="77" />
+        <img src="/img/N_logo.png" alt="noushin" width="77" height="77" />
 
       </div>
       <a
-  className={`nav__hamburger ${navActive ? "active" : ""}`}
-  onClick={toggleNav}
->
-  <span className="nav__hamburger__line"></span>
-  <span className="nav__hamburger__line"></span>
-  <span className="nav__hamburger__line"></span>
-</a>
+        className={`nav__hamburger ${navActive ? "active" : ""}`}
+        onClick={toggleNav}
+      >
+        <span className="nav__hamburger__line"></span>
+        <span className="nav__hamburger__line"></span>
+        <span className="nav__hamburger__line"></span>
+      </a>
 
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
@@ -106,7 +106,7 @@ function Navbar() {
               smooth={true}
               offset={-70}
               duration={500}
-              to= "testimonial"
+              to="testimonial"
               className="navbar--content"
             >
               Testimonials

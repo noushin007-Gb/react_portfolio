@@ -3,47 +3,49 @@
     {
       "id": "1",
       "src": "/img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "a"
+      "title": "Front-End & Back-End",
+      "description": ""
     },
     {
       "id": "2",
-      "src": "/img/tag-1.png",
-      "title": "Back-End",
+      "src": "/img/feather-pen-1.png",
+      "title": " C++, C, Java, and Python",
       "description": ""
     },
     {
       "id": "3",
       "src": "/img/feather-pen-2.png",
-      "title": "UI & UX Design",
+      "title": "Photography",
       "description": ""
     },
     {
       "id": "4",
-      "src": "/img/feather-pen-1.png",
-      "title": "Webflow Development",
+      "src": "/img/tag-1.png",
+      "title": "Graphic design and Video editing",
       "description": ""
     }
+    
   ],
   "portfolio": [
     {
       "id": "1",
       "src": "/img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "a",
-      "link": "View In Github"
+      "title": "Frontend",
+      "link": "View In Gihub"
     },
     {
       "id": "2",
       "src": "/img/placeholder-image-1.png",
-      "title": "App Dashboard",
-      "description": ""
+      "title": "BSEC App Dashboard",
+      "description": "",
+      "link": "View In Gihub"
     },
     {
       "id": "3",
       "src": "/img/placeholder-image-2.png",
-     "title": "Easy Rentn",
-      "description": ""
+     "title": "Lanka Bangla Website",
+      "description": "",
+      "link": "View In Gihub"
     }
   ],
       "testimonial": [

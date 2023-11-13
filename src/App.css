@@ -18,10 +18,10 @@ p{
 
 }
 :root{
-  --primary: #5e3bee;
+  --primary: rgb(238, 181, 59);
   --heading-color: #282938;
-  --bg-shade: #f5fcff;
-  --github: #e62872;
+  --bg-shade: #ebe5e0;
+  --github: rgb(109, 80, 19);
   --darkblue: #1c1e53;
   --black:#000000;
   --white: #ffffff;
